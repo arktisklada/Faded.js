@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Faded.js Example</title>
+
+<style type="text/css">
+.link {
+	background: url(sprite.jpg) no-repeat top left;
+	display: block;
+	height: 31px;
+	/*left: 0px;*/
+	/*position: absolute;*/
+	text-indent: -10000px;
+	/*top: 100px;*/
+	width: 184px;
+}
+/*.link:hover {
+	background-position: bottom left;
+}*/
+.link .off {
+	
+}
+.link .on {
+	
+}
+</style>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript" language="javascript"></script>
+<script src="../faded.js" type="text/javascript" language="javascript"></script>
+<script>
+$(document).ready(function() {
+	$('.fade-link').faded();
+});
+</script>
+</head>
+
+<body>
+
+<a href="#" class="link fade-link">Link to here</a>
+
+</body>
+</html>
+
