@@ -7,6 +7,7 @@ A javascript plugin for fading all of your links
 Sample usage: $('a').faded();
 
 Available options: {
+
 	delayIn: 0					// delay before fading in (ms)			[0]
 	delayOut: 0					// delay before fading out (ms)			[0]
 	duration: 200				// duration of fade						[200]
